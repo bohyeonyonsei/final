@@ -1,0 +1,1131 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  margin: 0%;
+  height: 100%;
+  opacity: 100%;
+}
+
+
+.background {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  opacity: 100%;
+  display: inline-block;
+  z-index: 1;
+  }
+
+.title {
+  position: absolute;
+  top: 75%;
+  left: 47%;
+  width: 55%;
+  opacity: 100%;
+  display: inline-block;
+  z-index: 7;
+  }
+
+ .sub {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 30%;
+  opacity: 100%;
+  display: inline-block;
+  z-index: 7;
+  }
+
+.box1{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 1%;
+  z-index: 4;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_one;
+  animation-duration: 0.55s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_one{
+  0%{
+    top: 13%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+
+.box2{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 3%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_two;
+  animation-duration: 0.76654s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_two{
+  0%{
+    top: 13%;}
+
+  100%{
+    top: 100%;}
+}
+
+.box3{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 7%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_three;
+  animation-duration: 0.399s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_three{
+  0%{
+    top: 13%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box4{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 9%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_four;
+  animation-duration: 0.512s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_four{
+  0%{
+    top: 13%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box5{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 10.5%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_five;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_five{
+  0%{
+    top: 13%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box6{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 14%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_six;
+  animation-duration: 0.356s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_six{
+  0%{
+    top: 13%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box7{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 18%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_seven;
+  animation-duration: 0.74s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_seven{
+  0%{
+    top: 6%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box8{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 19.5%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_eight;
+  animation-duration: 0.599s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_eight{
+  0%{
+    top: 6%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box9{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 24%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_nine;
+  animation-duration: 0.354s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_nine{
+  0%{
+    top: 6%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box10{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 25%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_ten;
+  animation-duration: 0.512s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_ten{
+  0%{
+    top: 6%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box11{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 27%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_eleven;
+  animation-duration: 0.709s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_eleven{
+  0%{
+    top: 6%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box12{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 32%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twelve;
+  animation-duration: 0.355s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twelve{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box13{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 33%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirteen;
+  animation-duration: 0.778s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirteen{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box14{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 36%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_fourteen;
+  animation-duration: 0.551s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_fourteen{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box15{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 41%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_fifteen;
+  animation-duration: 0.327s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_fifteen{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box16{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 42%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_sixteen;
+  animation-duration: 0.678s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_sixteen{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box17{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 43.5%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_seventeen;
+  animation-duration: 0.465s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_seventeen{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box18{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 46%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_eighteen;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_eighteen{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box19{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 47%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_nineteen;
+  animation-duration: 0.398s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_nineteen{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 100%;}
+
+}
+
+.box20{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 51%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twenty;
+  animation-duration: 0.356s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twenty{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 77%;}
+
+}
+
+.box21{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 54%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twentyone;
+  animation-duration: 0.555s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twentyone{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 77%;}
+
+}
+
+.box22{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 57.3%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twentytwo;
+  animation-duration: 0.474s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twentytwo{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 77%;}
+
+}
+
+.box23{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 58.5%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twentythree;
+  animation-duration: 0.634s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twentythree{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 77%;}
+
+}
+
+.box24{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 60.1%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twentyfour;
+  animation-duration: 0.311s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twentyfour{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 77%;}
+
+}
+
+.box25{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 64%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twentyfive;
+  animation-duration: 0.351s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twentyfive{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 77%;}
+
+}
+
+.box26{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 65.5%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twentysix;
+  animation-duration: 0.602s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twentysix{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 77%;}
+
+}
+
+.box27{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 69%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twentyseven;
+  animation-duration: 0.295s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twentyseven{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box28{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 70%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twentyeight;
+  animation-duration: 0.456s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twentyeight{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box28{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 74%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twentyeight;
+  animation-duration: 0.701s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twentyeight{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box29{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 77%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_twentynine;
+  animation-duration: 0.502s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_twentynine{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box30{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 79.3%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirty;
+  animation-duration: 0.559s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirty{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box31{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 80.4%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirtyone;
+  animation-duration: 0.369s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirtyone{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box32{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 84%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirtytwo;
+  animation-duration: 0.698s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirtytwo{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box33{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 85%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirtythree;
+  animation-duration: 0.323s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirtythree{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box34{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 86.5%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirtyfour;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirtyfour{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box35{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 88%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirtyfive;
+  animation-duration: 0.66s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirtyfive{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box36{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 92%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirtysix;
+  animation-duration: 0.89s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirtysix{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box37{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 93%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirtyseven;
+  animation-duration: 0.543s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirtyseven{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box38{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 95%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirtyeight;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirtyeight{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.box39{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 80px;
+  background-color: #1f2020;
+  top: 5%;
+  left: 98%;
+  z-index: 5;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transform: scale(1,1);
+  animation-name: go_thirtynine;
+  animation-duration: 0.37s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+}
+
+@keyframes go_thirtynine{
+  0%{
+    top: 0%;}
+
+  100%{
+    top: 70%;}
+
+}
+
+.blackbox{
+   position: absolute;
+   width: 150px;
+   height: 100%;
+   border-radius: 0%;
+   background-color: #1f2020;
+   z-index: 6;
+ }
